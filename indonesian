@@ -1,0 +1,100 @@
+! Title: uBo filter
+! Expires: 4 days
+! Description: Personal filter
+! Homepage: https://github.com/aviegdown/u/
+! Licence: none
+
+||welcome.indihome.co.id^
+web.telegram.org##.im_dialog:not(:has-text(ghina)):not(:has-text(Saved))
+
+/award$domain=reddit.com,image,important
+/awards$domain=reddit.com,image,important
+/in-feed$domain=www.reddit.com,image
+||styles.redditmedia.com/*profileIcon$image
+||styles.redditmedia.com/*communityIcon$image
+||redditstatic.com/avatars/$image
+||redditstatic.com/mweb2x/img/snoovatars/$image
+||redditstatic.com*/nsfw.png$image
+www.reddit.com##.TopNav__promoButton
+www.reddit.com##.XPromoPill
+www.reddit.com##.OuterBannerContainer
+www.reddit.com##.PostFooter__award-button
+www.reddit.com##.AwardingsBar
+www.reddit.com##.SignupDrawer.m-active.Drawer
+www.reddit.com##.m-slide-up.PreviewDrawer
+www.reddit.com##.XPromoInFeed
+old.reddit.com##.awardings-bar
+
+/image/title/$domain=4channel.org|4chan.org,image
+.gif$domain=4channel.org|4chan.org,image
+4channel.org,4chan.org##.thread:if(.desktop.postNum:has(.retina.stickyIcon))
+4channel.org,4chan.org###blotter
+4channel.org,4chan.org##.center.middlead
+4channel.org,4chan.org##.desktop.title
+twitter.com##[aria-label$="who to follow" i]
+twitter.com##[aria-label$="trending now" i]
+twitter.com##span:has-text(/Who to follow|Show more/):upward(3)
+twitter.com##[data-testid="UserCell"]
+twitter.com##[aria-label$="Timeline: Carousel"]
+twitter.com##span:has-text(Topics):upward(2)
+open.spotify.com##[aria-label$="upgrade to premium" i]
+open.spotify.com##.link-subtle:has-text(Install)
+10fastfingers.com##.top-first-bg
+10fastfingers.com##.alert-warning.alert
+play.typeracer.com##.practiceViewScoresPopup.trPopupDialog.DialogBox
+play.typeracer.com##.SignUpPromptPopup.trPopupDialog.DialogBox
+play.typeracer.com##.typoAlertPopup.trPopupDialog.DialogBox
+
+!notification popup
+www.instagram.com##div[role="presentation"]:has(> div[role="dialog"] > div[class^="_"] img[alt=""][src^="/static/images/ico/xxhdpi_launcher.png/"][width="76px"][height="76px"])
+!use app banner
+www.instagram.com##.xpORG.RnEpo
+www.instagram.com##.Z_Gl2
+!reccomendation
+www.instagram.com##.GZkEI:style(visibility:hidden !important)
+www.instagram.com##.l9Ww0:style(visibility:hidden !important)
+www.instagram.com##._8UZ6e
+!instastory
+www.instagram.com##.VideM
+www.instagram.com##.zGtbP
+www.instagram.com##._4bSq7
+!term updates
+www.instagram.com##.bR_3v
+www.instagram.com##.DCpAF
+
+!www.instagram.com##[aria-label$="plus icon" i]:upward(7)
+!www.instagram.com##span:has-text(Learn More):upward(3)
+!www.instagram.com##.glyphsSpriteChevron_circle_shadow_right:upward(4)
+!www.instagram.com##a[href="/explore/people/"]:not(:has-text(/Suggestions/)):upward(2):style(visibility:hidden !important)
+!www.instagram.com##body:style(overflow: auto !important;)
+!www.instagram.com##[src*="/static/images/ico/"]:upward(7)
+!www.instagram.com##h4:has-text(/App/):upward(5)
+
+
+komiku.co.id###aplikasi
+komiku.co.id##.notifikasi
+||iklan.komiku.co.id^$script,1p
+komiku.co.id##.adsbyadop
+/New-Project/$domain=komiku.co.id,image
+komiku.co.id##.subscribe
+nhentai.net##.lazyload
+
+
+youtube.com##+js(disable-pageview-api)
+m.youtube.com#@#*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+m.youtube.com##a[href^="/results"]
+m.youtube.com##.mealbar-promo-renderer
+www.youtube.com##.branding-img-container
+
+!||youtube*.com$3p,object,frame,redirect=click2load.html
+
+
+www.google.com###footer
+anitoki.com##div.rekomf
+gta.fandom.com##.article-featured-video__player
+||igg-games.com/*gif$image
+www.sciencetimes.com###gpt_adhesion
+www.ghacks.net##.comment-reply-link
+m.gsmarena.com##.widget.pricing
+m.gsmarena.com##.material-card.module-vid-review.module
+docs.google.com##.docs-ml-promotion-shown.docs-ml-promotion-off-screen.docs-ml-promotion
