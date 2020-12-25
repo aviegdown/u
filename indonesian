@@ -24,6 +24,9 @@ www.reddit.com##.SignupDrawer.m-active.Drawer
 www.reddit.com##.m-slide-up.PreviewDrawer
 www.reddit.com##.XPromoInFeed
 old.reddit.com##.awardings-bar
+teddit.net##.comment:has-text(/stickied comment/)
+teddit.net##details > .meta > .author
+teddit.net##details > .meta > .created
 
 /image/title/$domain=4channel.org|4chan.org,image
 .gif$domain=4channel.org|4chan.org,image
@@ -37,6 +40,8 @@ twitter.com##span:has-text(/Who to follow|Show more/):upward(3)
 twitter.com##[data-testid="UserCell"]
 twitter.com##[aria-label$="Timeline: Carousel"]
 twitter.com##span:has-text(Topics):upward(2)
+animixplay.to##.schedulemenucontainer
+animixplay.to###rightsidee
 open.spotify.com##[aria-label$="upgrade to premium" i]
 open.spotify.com##.link-subtle:has-text(Install)
 10fastfingers.com##.top-first-bg
@@ -81,6 +86,8 @@ nhentai.net##.lazyload
 
 
 youtube.com##+js(disable-pageview-api)
+m.youtube.com##c3-material-button.compact.button-renderer:not(.button-renderer-text:has-text(/Share|Save/))
+m.youtube.com###toasts:not(.notification-action-response-text:has-text(/Saved/))
 m.youtube.com#@#*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 m.youtube.com##a[href^="/results"]
 m.youtube.com##.mealbar-promo-renderer
