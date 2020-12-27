@@ -37,7 +37,6 @@ teddit.net##details > .meta > .created
 twitter.com##[aria-label$="who to follow" i]
 twitter.com##[aria-label$="trending now" i]
 twitter.com##span:has-text(/Who to follow|Show more/):upward(3)
-twitter.com##[data-testid="UserCell"]
 twitter.com##[aria-label$="Timeline: Carousel"]
 twitter.com##span:has-text(Topics):upward(2)
 animixplay.to##.schedulemenucontainer
