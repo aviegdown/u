@@ -8,7 +8,6 @@
 web.telegram.org##.im_dialog:not(:has-text(ghina)):not(:has-text(Saved))
 
 /award$domain=reddit.com,image,important
-/awards$domain=reddit.com,image,important
 /in-feed$domain=www.reddit.com,image
 ||styles.redditmedia.com/*profileIcon$image
 ||styles.redditmedia.com/*communityIcon$image
