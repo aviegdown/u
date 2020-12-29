@@ -4,6 +4,7 @@
 ! Homepage: https://github.com/aviegdown/u/
 ! Licence: none
 
+||accounts.google.com/gsi/*$script,important
 ||welcome.indihome.co.id^
 web.telegram.org##.im_dialog:not(:has-text(ghina)):not(:has-text(Saved))
 
@@ -15,6 +16,7 @@ web.telegram.org##.im_dialog:not(:has-text(ghina)):not(:has-text(Saved))
 ||redditstatic.com/mweb2x/img/snoovatars/$image
 ||redditstatic.com*/nsfw.png$image
 www.reddit.com##.PostFooter__award-wrapper
+www.reddit.com##.PostFooter__award-button
 www.reddit.com##.AwardingsBar
 old.reddit.com##.awardings-bar
 teddit.net##.comment:has-text(/stickied comment/)
