@@ -25,15 +25,9 @@ old.reddit.com##.awardings-bar
 4channel.org,4chan.org##.center.middlead
 4channel.org,4chan.org##.desktop.title
 
-!twitter.com##[data-testid="UserCell"]:has(span:has-text(follows))
-!twitter.com##span:has-text(/Who to follow|Show more/):upward(3)
-!twitter.com##span:has-text(Topics):upward(2)
-
 twitter.com##[aria-label$="who to follow" i]
 twitter.com##[aria-label$="trending now" i]
 twitter.com##[aria-label$="timeline: carousel" i]
-twitter.com##.r-j7yic.css-1dbjc4n > .r-1ny4l3l.css-18t94o4
-twitter.com##.r-j7yic.css-1dbjc4n > .r-1wtj0ep.css-1dbjc4n
 
 open.spotify.com##[aria-label$="upgrade to premium" i]
 open.spotify.com##.link-subtle:has-text(Install)
