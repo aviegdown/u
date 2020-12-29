@@ -15,14 +15,8 @@ web.telegram.org##.im_dialog:not(:has-text(ghina)):not(:has-text(Saved))
 ||redditstatic.com/avatars/$image
 ||redditstatic.com/mweb2x/img/snoovatars/$image
 ||redditstatic.com*/nsfw.png$image
-www.reddit.com##.TopNav__promoButton
-www.reddit.com##.XPromoPill
-www.reddit.com##.OuterBannerContainer
-www.reddit.com##.PostFooter__award-button
+www.reddit.com##.PostFooter__award-wrapper
 www.reddit.com##.AwardingsBar
-www.reddit.com##.SignupDrawer.m-active.Drawer
-www.reddit.com##.m-slide-up.PreviewDrawer
-www.reddit.com##.XPromoInFeed
 old.reddit.com##.awardings-bar
 teddit.net##.comment:has-text(/stickied comment/)
 teddit.net##details > .meta > .author
@@ -36,6 +30,7 @@ teddit.net##details > .meta > .created
 4channel.org,4chan.org##.desktop.title
 twitter.com##[aria-label$="who to follow" i]
 twitter.com##[aria-label$="trending now" i]
+twitter.com##[data-testid="UserCell"]:has(span:has-text(follows))
 twitter.com##span:has-text(/Who to follow|Show more/):upward(3)
 twitter.com##[aria-label$="Timeline: Carousel"]
 twitter.com##span:has-text(Topics):upward(2)
@@ -43,6 +38,7 @@ animixplay.to##.schedulemenucontainer
 animixplay.to###rightsidee
 open.spotify.com##[aria-label$="upgrade to premium" i]
 open.spotify.com##.link-subtle:has-text(Install)
+monkeytype.com##.notification
 10fastfingers.com##.top-first-bg
 10fastfingers.com##.alert-warning.alert
 play.typeracer.com##.practiceViewScoresPopup.trPopupDialog.DialogBox
@@ -91,7 +87,8 @@ m.youtube.com#@#*:style(-webkit-touch-callout: default !important; -webkit-user-
 
 !||youtube*.com$3p,object,frame,redirect=click2load.html
 
-
+mail.google.com##.pm:has(.Tr)
+web.whatsapp.com##[data-testid="status-v3-unread"]
 www.google.com###footer
 anitoki.com##div.rekomf
 gta.fandom.com##.article-featured-video__player
