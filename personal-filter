@@ -30,8 +30,6 @@ twitter.com##[data-testid="UserCell"]:has(span:has-text(follows))
 twitter.com##span:has-text(/Who to follow|Show more/):upward(3)
 twitter.com##[aria-label$="Timeline: Carousel"]
 twitter.com##span:has-text(Topics):upward(2)
-animixplay.to##.schedulemenucontainer
-animixplay.to###rightsidee
 open.spotify.com##[aria-label$="upgrade to premium" i]
 open.spotify.com##.link-subtle:has-text(Install)
 monkeytype.com##.notification
@@ -62,6 +60,8 @@ komiku.co.id##.notifikasi
 komiku.co.id##.adsbyadop
 /New-Project/$domain=komiku.co.id,image
 komiku.co.id##.subscribe
+animixplay.to##.schedulemenucontainer
+animixplay.to###rightsidee
 nhentai.net##.lazyload
 
 youtube.com##+js(disable-pageview-api)
