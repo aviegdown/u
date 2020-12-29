@@ -4,24 +4,18 @@
 ! Homepage: https://github.com/aviegdown/u/
 ! Licence: none
 
-||accounts.google.com/gsi/*$script,important
+||accounts.google.com/gsi/$script,important
 ||welcome.indihome.co.id^
-web.telegram.org##.im_dialog:not(:has-text(ghina)):not(:has-text(Saved))
+web.telegram.org##.im_dialog:not(:has-text(gh)):not(:has-text(Saved))
 
 /award$domain=reddit.com,image,important
-/in-feed$domain=www.reddit.com,image
 ||styles.redditmedia.com/*profileIcon$image
 ||styles.redditmedia.com/*communityIcon$image
 ||redditstatic.com/avatars/$image
 ||redditstatic.com/mweb2x/img/snoovatars/$image
 ||redditstatic.com*/nsfw.png$image
-www.reddit.com##.PostFooter__award-wrapper
-www.reddit.com##.PostFooter__award-button
 www.reddit.com##.AwardingsBar
 old.reddit.com##.awardings-bar
-teddit.net##.comment:has-text(/stickied comment/)
-teddit.net##details > .meta > .author
-teddit.net##details > .meta > .created
 
 /image/title/$domain=4channel.org|4chan.org,image
 .gif$domain=4channel.org|4chan.org,image
@@ -48,9 +42,6 @@ play.typeracer.com##.typoAlertPopup.trPopupDialog.DialogBox
 
 !notification popup
 www.instagram.com##div[role="presentation"]:has(> div[role="dialog"] > div[class^="_"] img[alt=""][src^="/static/images/ico/xxhdpi_launcher.png/"][width="76px"][height="76px"])
-!use app banner
-www.instagram.com##.xpORG.RnEpo
-www.instagram.com##.Z_Gl2
 !reccomendation
 www.instagram.com##.GZkEI:style(visibility:hidden !important)
 www.instagram.com##.l9Ww0:style(visibility:hidden !important)
@@ -63,15 +54,6 @@ www.instagram.com##._4bSq7
 www.instagram.com##.bR_3v
 www.instagram.com##.DCpAF
 
-!www.instagram.com##[aria-label$="plus icon" i]:upward(7)
-!www.instagram.com##span:has-text(Learn More):upward(3)
-!www.instagram.com##.glyphsSpriteChevron_circle_shadow_right:upward(4)
-!www.instagram.com##a[href="/explore/people/"]:not(:has-text(/Suggestions/)):upward(2):style(visibility:hidden !important)
-!www.instagram.com##body:style(overflow: auto !important;)
-!www.instagram.com##[src*="/static/images/ico/"]:upward(7)
-!www.instagram.com##h4:has-text(/App/):upward(5)
-
-
 komiku.co.id###aplikasi
 komiku.co.id##.notifikasi
 ||iklan.komiku.co.id^$script,1p
@@ -80,11 +62,9 @@ komiku.co.id##.adsbyadop
 komiku.co.id##.subscribe
 nhentai.net##.lazyload
 
-
 youtube.com##+js(disable-pageview-api)
 m.youtube.com###toasts:not(.notification-action-response-text:has-text(/Saved/))
 m.youtube.com#@#*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-
 
 !||youtube*.com$3p,object,frame,redirect=click2load.html
 
