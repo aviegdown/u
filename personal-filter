@@ -8,6 +8,7 @@
 ||welcome.indihome.co.id^
 web.telegram.org##.im_dialog:not(:has-text(gh)):not(:has-text(Saved))
 
+||www.reddit.com/framedGild/*$domain=reddit.com
 /award$domain=reddit.com,image,important
 ||styles.redditmedia.com/*profileIcon$image
 ||styles.redditmedia.com/*communityIcon$image
@@ -42,6 +43,7 @@ play.typeracer.com##.typoAlertPopup.trPopupDialog.DialogBox
 
 !notification popup
 www.instagram.com##div[role="presentation"]:has(> div[role="dialog"] > div[class^="_"] img[alt=""][src^="/static/images/ico/xxhdpi_launcher.png/"][width="76px"][height="76px"])
+www.instagram.com##.Z_Gl2
 !reccomendation
 www.instagram.com##.GZkEI:style(visibility:hidden !important)
 www.instagram.com##.l9Ww0:style(visibility:hidden !important)
