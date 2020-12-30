@@ -1,14 +1,14 @@
-! Title: uBo filter
+! Title: uBo aviegdown
 ! Expires: 4 days
 ! Description: Personal filter
 ! Homepage: https://github.com/aviegdown/u/
-! Licence: none
+! Author: aviegdown
 
 ||accounts.google.com/gsi/$script,important
 ||welcome.indihome.co.id^
 web.telegram.org##.im_dialog:not(:has-text(gh)):not(:has-text(Saved))
 
-||www.reddit.com/framedGild/*$domain=reddit.com
+||www.reddit.com/framedGild/$domain=reddit.com
 /award$domain=reddit.com,image,important
 ||styles.redditmedia.com/*profileIcon$image
 ||styles.redditmedia.com/*communityIcon$image
@@ -32,8 +32,6 @@ twitter.com##[aria-label$="who to follow" i]
 twitter.com##[aria-label$="trending now" i]
 twitter.com##[aria-label$="timeline: carousel" i]
 
-open.spotify.com##[aria-label$="upgrade to premium" i]
-open.spotify.com##.link-subtle:has-text(Install)
 monkeytype.com##.notification
 10fastfingers.com##.top-first-bg
 10fastfingers.com##.alert-warning.alert
@@ -52,9 +50,6 @@ www.instagram.com##._8UZ6e
 www.instagram.com##.VideM
 www.instagram.com##.zGtbP
 www.instagram.com##._4bSq7
-!term updates
-www.instagram.com##.bR_3v
-www.instagram.com##.DCpAF
 
 ||cdn.imag*ap.com/images/*.gif$image
 ||iklan.komiku.co.id^$script,1p
@@ -65,7 +60,7 @@ animixplay.to##.schedulemenucontainer
 animixplay.to###rightsidee
 nhentai.net##.lazyload
 
-youtube.com##+js(disable-pageview-api)
+m.youtube.com##+js(disable-pageview-api)
 m.youtube.com###toasts:not(.notification-action-response-text:has-text(/Saved/))
 m.youtube.com#@#*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
@@ -73,9 +68,8 @@ m.youtube.com#@#*:style(-webkit-touch-callout: default !important; -webkit-user-
 
 mail.google.com##.pm:has(.Tr)
 web.whatsapp.com##[data-testid="status-v3-unread"]
-www.google.com###footer
 anitoki.com##div.rekomf
-gta.fandom.com##.article-featured-video__player
+fandom.com##.article-featured-video__player
 ||igg-games.com/*gif$image
 www.sciencetimes.com###gpt_adhesion
 www.ghacks.net##.comment-reply-link
