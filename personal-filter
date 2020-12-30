@@ -17,6 +17,9 @@ web.telegram.org##.im_dialog:not(:has-text(gh)):not(:has-text(Saved))
 ||redditstatic.com*/nsfw.png$image
 www.reddit.com##.AwardingsBar
 old.reddit.com##.awardings-bar
+teddit.net##.meta > .author
+teddit.net##.meta > .created
+
 
 /image/title/$domain=4channel.org|4chan.org,image
 .gif$domain=4channel.org|4chan.org,image
@@ -53,12 +56,11 @@ www.instagram.com##._4bSq7
 www.instagram.com##.bR_3v
 www.instagram.com##.DCpAF
 
+||cdn.imag*ap.com/images/*.gif$image
+||iklan.komiku.co.id^$script,1p
 komiku.co.id###aplikasi
 komiku.co.id##.notifikasi
-||iklan.komiku.co.id^$script,1p
-komiku.co.id##.adsbyadop
 /New-Project/$domain=komiku.co.id,image
-komiku.co.id##.subscribe
 animixplay.to##.schedulemenucontainer
 animixplay.to###rightsidee
 nhentai.net##.lazyload
