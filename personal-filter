@@ -8,8 +8,8 @@
 ||welcome.indihome.co.id^
 web.telegram.org##.im_dialog:not(:has-text(gh)):not(:has-text(Saved))
 
-||www.reddit.com/framedGild/$domain=reddit.com
 /award$domain=reddit.com,image,important
+||www.reddit.com/framedGild/$domain=reddit.com
 ||styles.redditmedia.com/*profileIcon$image
 ||styles.redditmedia.com/*communityIcon$image
 ||redditstatic.com/avatars/$image
@@ -17,6 +17,7 @@ web.telegram.org##.im_dialog:not(:has-text(gh)):not(:has-text(Saved))
 ||redditstatic.com*/nsfw.png$image
 www.reddit.com##.AwardingsBar
 old.reddit.com##.awardings-bar
+old.reddit.com##.author-tooltip
 teddit.net##.meta > .author
 teddit.net##.meta > .created
 
@@ -28,6 +29,7 @@ teddit.net##.meta > .created
 4channel.org,4chan.org##.center.middlead
 4channel.org,4chan.org##.desktop.title
 
+twitter.com##span[dir$="ltr"] > span:has-text(/follows/i):upward(div[data-testid])
 twitter.com##[aria-label$="who to follow" i]
 twitter.com##[aria-label$="trending now" i]
 twitter.com##[aria-label$="timeline: carousel" i]
